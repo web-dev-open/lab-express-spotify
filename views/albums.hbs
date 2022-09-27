@@ -1,0 +1,15 @@
+<div class="albums">
+{{#each data }}
+<div class="indiv">
+<h2>{{this.name}}</h2>
+
+<img class="cover" src="{{this.images.0.url}}" alt="">
+
+
+<a  href="/albums/{{this.id}}/tracks"><button class="tracksButton">VIEW TRACKS</button></a>
+</div>
+{{/each }}
+
+<a href="/"><button></button></a>
+
+</div>

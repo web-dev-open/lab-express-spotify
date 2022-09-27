@@ -1,7 +1,14 @@
-<h2>{{data.items}}</h2>
-{{data.name}}
-<img src="{{data.image}}" alt="">
-<a href="/{{data.id}}/album"></a>
+
+<div class="albums">
+{{#each data }}
+<div class="indiv">
 
 
-<h2>adf</h2>
+<img class="cover" src="{{this.images.0.url}}" alt="">
+<h2>{{this.name}}</h2>
+
+<a class="hyper" href="/albums/{{this.id}}">View Albums</a>
+</div>
+{{/each }}
+
+</div>

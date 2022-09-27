@@ -1,0 +1,81 @@
+body {
+    background-image: url("/images/spotify-background.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.back {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.field {
+    height: 200px;
+    width: 600px;
+    background:rgba(253, 253, 253, 0.5);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    opacity: 1 !important;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border: 0px;
+    width: 150px;
+    height: 25px;
+}
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    margin: 20px;
+}
+
+
+
+.hyper {
+    color: red
+    ;
+}
+
+.cover {
+    height: 400px;
+    width: 400px;
+}
+
+.tracksButton {
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 0;
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 150px;
+
+}
+
+.tracksButton:hover {
+    background-color: lightcoral;
+  }
+  
+  .fig{
+    color: white;
+  }
