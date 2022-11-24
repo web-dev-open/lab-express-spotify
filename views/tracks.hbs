@@ -1,0 +1,10 @@
+{{#each data}}
+
+<figure>
+    <figcaption class="fig">{{this.name}}</figcaption>
+<audio controls="controls">
+  <source src="{{this.preview_url}}" type="audio/mpeg">
+</audio>
+</figure>
+
+{{/each}}
