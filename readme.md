@@ -1,5 +1,7 @@
 
-![Root logo](https://imgur.com/Hq8xgzy.png)
+<img src="https://imgur.com/XOS1Vdh.png"  width="150px" height="150px">
+
+
 
 # Express Spotify Searcher
 
